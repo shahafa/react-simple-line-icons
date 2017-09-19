@@ -1,8 +1,17 @@
 {
   "name": "react-simple-line-icons",
   "version": "1.0.0",
+  "description": "Simple Line Icons React Component",  
   "main": "index.js",
+  "author": "Shahaf Shaked",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shahafa/react-simple-line-icons"
+  },
+  "bugs": {
+    "url": "https://github.com/shahafa/react-simple-line-icons/issues"
+  },
   "devDependencies": {
     "eslint": "^4.6.0",
     "eslint-config-airbnb-base": "^12.0.0",
