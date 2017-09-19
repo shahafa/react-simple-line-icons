@@ -2,7 +2,7 @@
   "name": "react-simple-line-icons",
   "version": "1.0.0",
   "description": "Simple Line Icons React Component",  
-  "main": "index.js",
+  "main": "./src/index.js",
   "author": "Shahaf Shaked",
   "license": "MIT",
   "repository": {
