@@ -2,16 +2,22 @@
   "name": "react-simple-line-icons",
   "version": "1.0.4",
   "description": "Simple Line Icons React Component",
-  "main": "./dist/src/index.js",
+  "main": "dist/index.js",
   "author": "Shahaf Shaked",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shahafa/react-simple-line-icons"
+    "url": "git+https://github.com/shahafa/react-simple-line-icons.git"
   },
   "bugs": {
     "url": "https://github.com/shahafa/react-simple-line-icons/issues"
   },
+  "keywords": [
+    "simple-line-icons",
+    "simple line icons",
+    "icons",
+    "react"
+  ],  
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
@@ -28,7 +34,7 @@
     "simple-line-icons": "^2.4.1"
   },
   "scripts": {
-    "build": "babel ./src/index.js --out-dir ./dist",
-    "prepare": "npm run build"
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build"
   }
 }
