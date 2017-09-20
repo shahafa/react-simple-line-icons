@@ -35,6 +35,6 @@
   },
   "scripts": {
     "build": "babel src -d dist",
-    "prepublishOnly": "npm run build"
+    "prepare": "npm run build"
   }
 }
