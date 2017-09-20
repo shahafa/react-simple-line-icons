@@ -29,6 +29,6 @@
   },
   "scripts": {
     "build": "babel ./src/index.js --out-dir ./dist",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   }
 }
