@@ -14,8 +14,6 @@ yarn add react-simple-line-icons
 ```
 
 ## Usage
-Here is a quick example to get you started, it's all you need:
-
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -41,7 +39,7 @@ style |  Object |   |  custom style object
 
 ## Support
 
-Please [open an issue](https://github.com/shahafa/react-simple-line-icons/new) for support.
+Please [open an issue](https://github.com/shahafa/react-simple-line-icons/issues/new) for support.
 
 ## Contributing
 
