@@ -12,6 +12,7 @@ const fontSize = (size) => {
 };
 
 const SimpleLineIcon = ({
+  className,
   name,
   color,
   size,
@@ -19,7 +20,7 @@ const SimpleLineIcon = ({
   ...rest
 }) => (
   <div
-    className={`icon-${name}`}
+    className={`icon-${name} ${className}`}
     style={{
       color,
       fontSize: fontSize(size),
@@ -31,12 +32,14 @@ const SimpleLineIcon = ({
 
 SimpleLineIcon.propTypes = {
   name: PropTypes.string.isRequired,
+  className: PropTypes.string,
   color: PropTypes.string,
   size: PropTypes.oneOf(['Large', 'large', 'Medium', 'medium', 'Small', 'small']),
   style: PropTypes.object,
 };
 
 SimpleLineIcon.defaultProps = {
+  className:"",
   color: null,
   size: 'Medium',
   style: {},
