@@ -33,6 +33,12 @@
     "react-dom": "^15.6.1",
     "simple-line-icons": "^2.4.1"
   },
+  "peerDependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "simple-line-icons": "^2.4.1"
+  },
   "scripts": {
     "build": "babel src -d dist",
     "prepare": "npm run build"
